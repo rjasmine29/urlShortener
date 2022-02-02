@@ -1,0 +1,36 @@
+{% extends 'urlShortener/base.html' %} 
+
+{% block body %}
+
+<div>
+  
+      <h1>URL Shortner Application </h1>
+    <div>
+      <form action="" method="POST">
+        {% csrf_token %}
+        
+          {{form.originalURL}}
+          
+            <button type="submit">
+              Generate
+            </button>
+      </form>
+    </div>
+  </div>
+  {% if errors %}
+  <div >
+    <p>{{errors}}</p>
+  </div>
+  {% endif %}
+
+  {% if new_url %}
+
+  <div >
+    <h2 >Your shortened Url</h2>
+    <p>You can copy the Link below and share it with your friends</p>
+    <p >{{new_url}}</p>
+    <p><span >Previous URL:</span> {{originalURL}}</p>
+  </div>
+  {% endif %}
+</div>
+{% endblock body %}

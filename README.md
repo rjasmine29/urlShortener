@@ -1,6 +1,6 @@
 # URL Shortener  
 
-This project is on a URL shortener.
+This project is on a URL shortener. A user is able to enter a url and receive a shortened one. 
 
 ## Installation & Usage
 

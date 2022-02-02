@@ -6,8 +6,8 @@ This project is on a URL shortener.
 
 * Run `pipenv install` to install dependencies
 * Type `pipenv shell` 
-* cd into pairedWork folder
-* cd into project folder
+* cd into "pairedWork" folder
+* cd into "project" folder
 * Run `python manage.py` runserver
 * Type in a url, and retrieve a shortened url
 * Copy and paste the shortened url onto a browser 

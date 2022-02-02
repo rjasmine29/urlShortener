@@ -5,7 +5,7 @@ This project is on a URL shortener.
 ## Installation & Usage
 
 * Run `pipenv install` to install dependencies
-* `pipenv shell`
+* Type `pipenv shell` 
 * cd into pairedWork folder
 * cd into project folder
 * Run `python manage.py` runserver
